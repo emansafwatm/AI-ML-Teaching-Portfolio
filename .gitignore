@@ -49,3 +49,6 @@ logs/
 build/
 dist/
 *.egg-info/
+
+# Generated notebook audit report
+notebook_audit.txt

@@ -1,0 +1,30 @@
+# Notebook environment
+jupyterlab
+notebook
+ipywidgets
+
+# Numerical computing and data analysis
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn
+scikit-optimize
+
+# Natural language processing
+nltk
+gensim
+
+# Deep learning and Transformers
+torch
+transformers
+datasets
+
+# Computer vision
+Pillow
+opencv-python

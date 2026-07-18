@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+
+# Generated model artifacts
+outputs/
+checkpoints/
+models/
+runs/
+logs/
+
+# Machine-learning model files
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.bin
+*.safetensors
+
+# Generated data and temporary files
+*.tmp
+*.temp
+*.log
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Generated notebook audit report
+notebook_audit.txt

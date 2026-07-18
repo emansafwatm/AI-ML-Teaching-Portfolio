@@ -54,9 +54,8 @@ After completing these notebooks, students should be able to:
 | Notebook | Topic |
 |---|---|
 | `Naive_Bayes_Classifiers.ipynb` | Probabilistic classification using Naive Bayes |
-| `DecisionTree1.ipynb` | Decision-tree fundamentals |
-| `DecisionTree2.ipynb` | Additional decision-tree implementation |
-| `DecisionTree3.ipynb` | Extended decision-tree example |
+| `User_Purchase_Decision_Tree_Classification.ipynb` | Predicting user purchases from age and estimated salary using a decision tree |
+| `Diabetes_Decision_Tree_Classification.ipynb` | Binary diabetes classification using clinical attributes and a decision tree |
 
 ### Neural Networks
 
@@ -81,9 +80,10 @@ A suitable progression is:
 10. `Bisection_Method.ipynb`
 11. `BFGS.ipynb`
 12. `Naive_Bayes_Classifiers.ipynb`
-13. `DecisionTree1.ipynb`
-14. `NeuralNetwork.ipynb`
-15. `Neural_Network_from_Scratch.ipynb`
+13. `User_Purchase_Decision_Tree_Classification.ipynb`
+12. `Diabetes_Decision_Tree_Classification.ipynb`
+15. `NeuralNetwork.ipynb`
+16. `Neural_Network_from_Scratch.ipynb`
 
 The additional notebooks and exercise files may be used for reinforcement after the corresponding introductory lesson.
 

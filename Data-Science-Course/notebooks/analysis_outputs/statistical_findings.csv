@@ -1,0 +1,6 @@
+Question,Method,Key_Result,Effect_Size
+Experience and salary relationship,Pearson correlation,0.29984208919622446,
+Training and performance relationship,Pearson correlation,0.018746129315576468,
+Salary difference between selected gender groups,Independent t-test,0.8661616432873669,0.015085117890270885
+Salary difference across departments,One-way ANOVA,4.28105866477846e-47,0.3621115989392868
+Education and department association,Chi-square test,0.15094402185086553,0.10634638445134711

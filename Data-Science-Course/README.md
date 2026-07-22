@@ -1,82 +1,1 @@
-# Data Science Course
-
-This directory contains instructional notebooks introducing practical data analysis, data cleaning, statistical relationships, visualization, exploratory analysis, and interpretation using Python.
-
-The materials are intended for classroom demonstrations, guided laboratory sessions, and independent practice.
-
-## Learning Objectives
-
-After completing these notebooks, students should be able to:
-
-- load structured data using Pandas;
-- inspect dataset dimensions, columns, data types, and quality;
-- identify and treat missing, duplicated, inconsistent, and invalid values;
-- convert variables to suitable data types;
-- summarize numerical and categorical variables;
-- group and aggregate records;
-- calculate and interpret correlation coefficients;
-- distinguish correlation from causation;
-- create statistical and comparative visualizations;
-- analyze historical election results;
-- communicate findings clearly and acknowledge analytical limitations.
-
-## Notebook Topics
-
-| Notebook | Main topic |
-|---|---|
-| `Data_Cleaning_and_Missing_Values.ipynb` | Dataset inspection, duplicates, missing values, inconsistent categories, type conversion, invalid values, outlier screening, validation, and documentation |
-| `Correlation.ipynb` | Pearson correlation, statistical interpretation, and multivariable visualization |
-| `US_Presidential_Election_Analysis.ipynb` | Exploratory analysis of historical United States presidential-election results |
-
-## Suggested Study Sequence
-
-### 1. Data Cleaning and Missing Values
-
-Begin with:
-
-```text
-notebooks/Data_Cleaning_and_Missing_Values.ipynb
-```
-
-This notebook establishes the data-quality workflow required before reliable statistical analysis or machine learning.
-
-### 2. Correlation Analysis
-
-Continue with:
-
-```text
-notebooks/Correlation.ipynb
-```
-
-This lesson introduces numerical relationships and emphasizes that correlation does not establish causation.
-
-### 3. Applied Exploratory Analysis
-
-Complete:
-
-```text
-notebooks/US_Presidential_Election_Analysis.ipynb
-```
-
-This notebook applies data manipulation, summarization, and visualization to a historical dataset.
-
-## Environment
-
-The core notebooks require:
-
-```bash
-pip install numpy pandas matplotlib
-```
-
-Additional notebook-specific requirements should be checked inside each notebook.
-
-## Data-Quality Principles
-
-The course emphasizes that:
-
-- raw data should be preserved;
-- cleaning decisions should be reproducible;
-- missing-value treatment should be justified;
-- potential outliers should be investigated rather than automatically deleted;
-- validation checks should be performed after cleaning;
-- analytical limitations should be reported clearly.
+\# Data Science CourseThis course provides a practical introduction to core data science concepts using Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn, SciPy, and Statsmodels.The notebooks are organized as a progressive learning sequence, beginning with data preparation and exploratory analysis and ending with statistical testing and a complete end-to-end case study.\## Course ObjectivesBy completing this course, learners will be able to:\* clean and prepare structured datasets\* identify and handle missing values\* perform exploratory data analysis\* create clear statistical visualizations\* calculate and interpret descriptive statistics\* examine relationships between variables\* summarize data using grouping, aggregation, and pivot tables\* apply common statistical hypothesis tests\* complete a structured data analysis workflow\* communicate analytical findings clearly\## Course Structure\### 01. Data Cleaning and Missing ValuesIntroduces common data-quality problems and practical data-cleaning techniques.Topics include:\* inspecting datasets\* identifying missing values\* handling null values\* removing duplicates\* correcting data types\* validating cleaned dataNotebook:```textnotebooks/01\_Data\_Cleaning\_and\_Missing\_Values.ipynb```\### 02. Exploratory Data AnalysisIntroduces systematic dataset exploration before formal modeling or statistical testing.Topics include:\* dataset structure\* summary information\* value distributions\* categorical variables\* numerical variables\* initial pattern detection\* basic anomaly identificationNotebook:```textnotebooks/02\_Exploratory\_Data\_Analysis.ipynb```\### 03. Data Visualization with MatplotlibDemonstrates how to create visual representations that support data exploration and communication.Topics include:\* line plots\* bar charts\* histograms\* box plots\* scatter plots\* figure labels and titles\* interpretation of visual patternsNotebook:```textnotebooks/03\_Data\_Visualization\_with\_Matplotlib.ipynb```\### 04. Descriptive StatisticsCovers numerical methods for summarizing the main characteristics of a dataset.Topics include:\* mean\* median\* mode\* variance\* standard deviation\* range\* quartiles\* interquartile range\* distribution interpretationNotebook:```textnotebooks/04\_Descriptive\_Statistics.ipynb```\### 05. Correlation and AssociationExamines relationships between variables and explains how to interpret association measures correctly.Topics include:\* Pearson correlation\* Spearman correlation\* correlation matrices\* scatter-plot interpretation\* categorical association\* correlation versus causationNotebook:```textnotebooks/05\_Correlation\_and\_Association.ipynb```\### 06. Grouping, Aggregation, and Pivot TablesIntroduces structured methods for summarizing data across categories and subgroups.Topics include:\* `groupby`\* aggregation functions\* multiple aggregations\* grouped comparisons\* pivot tables\* cross-tabulation\* business-oriented summariesNotebook:```textnotebooks/06\_Grouping\_Aggregation\_and\_Pivot\_Tables.ipynb```\### 07. Statistical Hypothesis TestingIntroduces inferential statistics and common hypothesis-testing procedures.Topics include:\* null and alternative hypotheses\* significance levels\* p-values\* Type I and Type II errors\* one-sample t-tests\* independent-samples t-tests\* paired-samples t-tests\* chi-square tests\* ANOVA\* assumption checking\* result interpretationNotebook:```textnotebooks/07\_Statistical\_Hypothesis\_Testing.ipynb```\### 08. End-to-End Data Analysis Case StudyCombines the techniques from the previous notebooks into a complete analytical workflow.The case study includes:\* problem definition\* dataset inspection\* data cleaning\* exploratory data analysis\* descriptive statistics\* visualization\* grouped analysis\* correlation analysis\* hypothesis testing\* interpretation of findings\* final conclusionsNotebook:```textnotebooks/08\_End\_to\_End\_Data\_Analysis\_Case\_Study.ipynb```\## Repository Structure```textData-Science-Course/│├── datasets/│   └── employee\_statistics.csv│├── notebooks/│   ├── 01\_Data\_Cleaning\_and\_Missing\_Values.ipynb│   ├── 02\_Exploratory\_Data\_Analysis.ipynb│   ├── 03\_Data\_Visualization\_with\_Matplotlib.ipynb│   ├── 04\_Descriptive\_Statistics.ipynb│   ├── 05\_Correlation\_and\_Association.ipynb│   ├── 06\_Grouping\_Aggregation\_and\_Pivot\_Tables.ipynb│   ├── 07\_Statistical\_Hypothesis\_Testing.ipynb│   └── 08\_End\_to\_End\_Data\_Analysis\_Case\_Study.ipynb│└── README.md```\## Technologies Used\* Python\* Jupyter Notebook\* Pandas\* NumPy\* Matplotlib\* Seaborn\* SciPy\* Statsmodels\## InstallationFrom the repository root, create and activate a virtual environment.\### Windows PowerShell```powershellpython -m venv .venvSet-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass.\\.venv\\Scripts\\Activate.ps1```Install the required packages:```powershellpython -m pip install --upgrade pippython -m pip install -r requirements.txt```Start Jupyter Notebook:```powershellpython -m notebook```\## Recommended Learning OrderRun the notebooks in numerical order from `01` to `08`.Each notebook builds on concepts introduced in earlier lessons, so following the complete sequence is recommended.\## Learning ApproachThe course emphasizes practical implementation and interpretation rather than code execution alone.Learners are encouraged to:\* run every notebook cell\* inspect intermediate outputs\* modify variables and parameters\* compare alternative visualizations\* explain statistical results in their own words\* complete the exercises independently\* review the final case study as a complete analytical workflow\## Course Status\*\*Completed\*\*The Data Science course currently contains eight instructional notebooks covering foundational analysis, visualization, statistical reasoning, and end-to-end analytical practice.

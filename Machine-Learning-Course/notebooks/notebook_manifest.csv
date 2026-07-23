@@ -1,0 +1,15 @@
+Notebook,Total Cells,Code Cells,Markdown Cells
+Bank_Classification_Model_Comparison.ipynb,31,13,18
+Breast_Cancer_SVM_Classification.ipynb,20,9,11
+Deep_Learning.ipynb,140,89,51
+Drug_Classification_Model_Comparison.ipynb,12,8,4
+Hyperparameter_Optimization.ipynb,24,10,14
+KNN_algorithm.ipynb,25,10,15
+Keras_Basics.ipynb,54,40,14
+L1_and_L2_regularization.ipynb,19,9,10
+Linear_Algebra.ipynb,73,16,57
+Linear_Regression.ipynb,43,15,28
+Polynomial_Regression.ipynb,46,17,29
+Ridge_and_Lasso_Regression.ipynb,35,12,23
+Support_Vector_Machine.ipynb,13,6,7
+Underfitting_and_Overfitting.ipynb,13,5,8
